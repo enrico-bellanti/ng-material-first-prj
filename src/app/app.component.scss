@@ -1,0 +1,95 @@
+button{
+    margin-right: 3rem;
+}
+
+div{
+    margin: 20px;
+}
+
+
+// NAVBAR
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar span {
+    padding-right: 1rem;
+}
+
+
+// SIDENAV
+mat-sidenav-container{
+    height: 100%;
+}
+
+mat-sidenav, mat-sidenav-content {
+    padding: 16px;
+}
+
+mat-sidenav{
+    background-color: lightcoral;
+    width: 200px;
+}
+
+// MENU
+
+.center{
+    margin: 10rem;
+}
+
+// GRID
+mat-grid-tile{
+    background-color: lightblue;
+}
+
+// CONTAINER
+
+.container{
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.container_header{
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.container_header h2{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    color: lightseagreen;
+    margin: 0;
+    padding: 10px 0;
+}
+.header h1{
+    color: magenta;
+    margin: 0;
+    font-weight: bold;
+}
+.first{
+    border-top: 1px solid grey;
+}
+
+// DATA TABLE
+table {
+    width: 100%;
+}
+
+// SCROLLING
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid maroon;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.scroll_container{
+    height: 400px;
+}
+
+// RADIO BUTTON
+.radio{
+    margin-right: 7px;
+}
